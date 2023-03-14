@@ -1,0 +1,5 @@
+#!/bin/bash                                                                                                                                                                                                        
+cd /path/to/git/repository
+git add .
+git commit -m "$1"
+git push
