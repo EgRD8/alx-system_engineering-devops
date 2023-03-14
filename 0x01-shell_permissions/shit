@@ -1,13 +1,5 @@
 #!/bin/bash
-
-# navigate to the Git repository
 cd /path/to/git/repository
-
-# add all changes to the staging area
 git add .
-
-# commit the changes with a message provided as the first argument to the script
 git commit -m "$1"
-
-# push the changes to the remote repository
 git push
